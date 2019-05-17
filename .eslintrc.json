@@ -13,10 +13,14 @@
     "parserOptions": {
         "ecmaVersion": 2018
     },
+    
     "rules": {
         "curly": "warn",
-        "callback-return": ["callback", "cb", "next"],
+        "callback-return": "warn",
         "array-bracket-spacing": "warn",
-        "semi":"warn"
+        "semi":"warn",
+        "no-console":"off",
+        "indent": ["error", 2],
+        "no-unused-vars":"warn"
     }
 }
