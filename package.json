@@ -10,11 +10,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "config": "^3.1.0",
     "eslint": "^5.16.0",
+    "mocha": "^6.1.4",
     "nodemon": "^1.19.0"
   },
   "dependencies": {
     "http": "0.0.0",
+    "mime": "^2.4.3",
+    "request": "^2.88.0",
     "zlib": "^1.0.5"
   }
 }
